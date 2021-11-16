@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.base{
+    background-image: url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW92aWUlMjBhcHBzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    
+}
+.add-movie{
+    min-height: 10vh;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(180 136 233);
+    color: black;
+}
+.space-bet{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+.space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+ }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgb(124 203 223);
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
