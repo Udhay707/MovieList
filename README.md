@@ -4,4 +4,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Site live at https://movie-list-app07.netlify.app/
 
-## My first CRUD App
